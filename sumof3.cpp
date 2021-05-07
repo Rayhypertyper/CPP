@@ -13,9 +13,3 @@ int main() {
         fourthdigit = num / 10 % 10;
         fifthdigit = num % 10;
         sum = firstdigit + seconddigit + thirddigit + fourthdigit + fifthdigit;
-
-        if (sum == 3) {
-            cout << num << endl;
-        }
-    }
-}

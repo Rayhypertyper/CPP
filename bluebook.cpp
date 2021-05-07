@@ -17,7 +17,8 @@ int main() {
     else if ( a = JG) { cout << "junior girls" << endl;}
     else if ( a = JB) { cout << "junior boys"<< endl;}
     else if (a = SG) {cout << "senior girls" << endl;}
-    else if ( a = SB) { cout << "senior boys" << endl;}
+    else 
+    +if ( a = SB) { cout << "senior boys" << endl;}
     else
     {cout << "invalid input" << endl;}
 }
