@@ -19,7 +19,7 @@ int main() {
             cout << x[i][j] << " ";  
             }
         cout << endl;
-yes
+
         
         
     } 

@@ -4,20 +4,20 @@ using namespace std;
 
 int main() {
 
-    int n, x = 0, y = 0;
-    cin >> n;
+    int input_number, a = 0, y = 0;
+    cin >>input_number;
     string str;
     cin >> str;
     for (int i = 0; i < n; i++) {
         if (str[i] == 'A')
-            x++;
+            a++;
         else if(str[i] == 'B')
             y++;
     }
-    if (x > y)
+    if (a > y)
         cout << "A" << endl;
-    else if (x == y)
+    else if (a == y)
         cout << "Tie" << endl;
-    else if (x < y)
+    else if (a < y)
         cout << "B" << endl;
 } 

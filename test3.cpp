@@ -3,11 +3,9 @@
 using namespace std;
 
 int main() {
-    string str = "hello world";
-    auto found_idx = str.find("wo");
-    if ( found_idx != string::npos)
-        cout << "Found at: " << found_idx << endl;
-    else
-        cout << "not found" << endl;
-
+    int x;
+    cin >> x;
+    for(int i = 0; x > 1;x++){
+        cout << x << endl;
+    }
 }
